@@ -2,7 +2,7 @@ import {ReactElement} from "react";
 import {StageBase, StageResponse, InitialData, Message} from "@chub-ai/stages-ts";
 import {LoadResponse} from "@chub-ai/stages-ts/dist/types/load";
 import {env, pipeline} from '@xenova/transformers';
-
+ 
 type MessageStateType = { [key: string]: Emotion };
 type ConfigType = {
     // Optional. The alternate expression packs to use.
